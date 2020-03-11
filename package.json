@@ -1,0 +1,23 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "mongoose": "^5.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

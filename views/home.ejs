@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+    .header {
+      background-color: grey;
+    }
+    .header a {
+      padding: 10px;
+      font-size: 50px;
+      color:white;
+    }
+  </style>
+  </head>
+<body>
+     
+     <div class='header'>
+        <%if(!user){%>
+     <a href='/auth/login' >login</a>
+     <%} else {%>
+     <a href='/auth/logout'>logout</a>
+     <%}%>
+     <a href='/' >Home</a>
+     <a href='/profile/'>Profile</a>
+     </div>
+</body>
